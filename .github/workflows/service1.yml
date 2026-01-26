@@ -4,6 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
+      - pom.xml
       - services/service1/**
       - libs/metrics/**
       - libs/security/**
