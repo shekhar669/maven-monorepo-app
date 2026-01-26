@@ -2,21 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
   "include-component-in-tag": true,
   "packages": {
-    "libs/metrics": {
-      "release-type": "maven",
-      "changelog-path": "libs/metrics/CHANGELOG.md"
-    },
-    "libs/security": {
-      "release-type": "maven",
-      "changelog-path": "libs/security/CHANGELOG.md"
-    },
-    "services/service1": {
-      "release-type": "maven",
-      "changelog-path": "services/service1/CHANGELOG.md"
-    },
-    "services/service2": {
-      "release-type": "maven",
-      "changelog-path": "services/service2/CHANGELOG.md"
-    }
+    "libs": { "release-type": "maven" },
+    "services": { "release-type": "maven" }
   }
 }
