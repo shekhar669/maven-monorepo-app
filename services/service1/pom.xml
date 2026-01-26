@@ -13,6 +13,18 @@
     <artifactId>service1</artifactId>
 
     <dependencies>
+      <!-- Spring Boot core -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+
+    <!-- Optional: for web apps -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+     
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>security</artifactId>
