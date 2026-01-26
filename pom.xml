@@ -13,8 +13,6 @@
 
    <groupId>org.example</groupId>
   <artifactId>maven-monorepo-example</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
-
 
    <modules>
     <module>libs</module>
