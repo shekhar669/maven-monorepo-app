@@ -1,0 +1,18 @@
+{
+  "packages": {
+    ".": {
+      "release-type": "maven",
+      "bump-minor-pre-major": false,
+      "component": ""
+    },
+    "libs": {
+      "release-type": "maven",
+      "component": "libs"
+    },
+    "services": {
+      "release-type": "maven",
+      "component": "services"
+    }
+  },
+  "include-component-in-tag": true
+}
