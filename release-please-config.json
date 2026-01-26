@@ -1,18 +1,18 @@
 {
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "include-component-in-tag": true,
   "packages": {
     ".": {
       "release-type": "maven",
-      "bump-minor-pre-major": false,
-      "component": ""
+      "changelog-path": "CHANGELOG.md"
     },
-    "libs": {
+    "libs/lib1": {
       "release-type": "maven",
-      "component": "libs"
+      "changelog-path": "libs/lib1/CHANGELOG.md"
     },
-    "services": {
+    "services/service1": {
       "release-type": "maven",
-      "component": "services"
+      "changelog-path": "services/service1/CHANGELOG.md"
     }
-  },
-  "include-component-in-tag": true
+  }
 }
