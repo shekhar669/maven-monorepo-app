@@ -1,5 +1,6 @@
 {
-  ".": "0.1.0",
-  "libs": "0.1.0",
-  "services": "0.1.0"
+  "libs/metrics": "0.0.1",
+  "libs/security": "0.0.1",
+  "services/service1": "0.0.1",
+  "services/service2": "0.0.1"
 }
