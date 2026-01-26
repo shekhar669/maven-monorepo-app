@@ -5,5 +5,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class ExampleService {
   public void someMethod(){
+    System.out.println("hello");
   }
 }
