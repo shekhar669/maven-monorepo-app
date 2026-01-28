@@ -5,7 +5,7 @@
 
   <groupId>org.example</groupId>
   <artifactId>security</artifactId>
-  <version>0.1.1-SNAPSHOT</version>
+  <version>0.3.0</version>
   <packaging>jar</packaging>
 
   <properties>

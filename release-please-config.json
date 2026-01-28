@@ -6,32 +6,18 @@
       "release-type": "simple",
       "package-name": "security",
       "extra-files": [
-        {
-          "type": "xml",
-          "path": "security/pom.xml",
-          "xpath": "//*[local-name()='version']"
-        }
+        "security/version.txt",
+        "security/pom.xml"
       ]
     },
     "services": {
       "release-type": "simple",
       "package-name": "services",
       "extra-files": [
-        {
-          "type": "xml",
-          "path": "services/pom.xml",
-          "xpath": "//*[local-name()='project']/*[local-name()='version']"
-        },
-        {
-          "type": "xml",
-          "path": "services/service1/pom.xml",
-          "xpath": "//*[local-name()='parent']/*[local-name()='version']"
-        },
-        {
-          "type": "xml",
-          "path": "services/service2/pom.xml",
-          "xpath": "//*[local-name()='parent']/*[local-name()='version']"
-        }
+        "services/version.txt",
+        "services/pom.xml",
+        "services/service1/pom.xml",
+        "services/service2/pom.xml"
       ]
     }
   }
