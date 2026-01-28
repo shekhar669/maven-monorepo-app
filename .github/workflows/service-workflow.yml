@@ -18,8 +18,11 @@ jobs:
           java-version: '17'
           distribution: 'adopt'
 
+      - name: Build security dependency first
+        run: mvn clean install -pl security -DskipTests --batch-mode
+
       - name: Build application
-        run: mvn clean package --projects :${{ inputs.service }} --also-make --batch-mode
+        run: mvn clean package -pl services/${{ inputs.service }} -DskipTests --batch-mode
 
       # Build and push docker image
       # docker build . --build-arg JAR_FILE=services/${{ inputs.service }}/target/app.jar -t <tag>
