@@ -3,19 +3,35 @@
   "include-component-in-tag": true,
   "packages": {
     "security": {
-      "release-type": "maven",
+      "release-type": "simple",
       "package-name": "security",
       "extra-files": [
-        "security/pom.xml"
+        {
+          "type": "xml",
+          "path": "security/pom.xml",
+          "xpath": "//*[local-name()='version']"
+        }
       ]
     },
     "services": {
-      "release-type": "maven",
+      "release-type": "simple",
       "package-name": "services",
       "extra-files": [
-        "services/pom.xml",
-        "services/service1/pom.xml",
-        "services/service2/pom.xml"
+        {
+          "type": "xml",
+          "path": "services/pom.xml",
+          "xpath": "//*[local-name()='project']/*[local-name()='version']"
+        },
+        {
+          "type": "xml",
+          "path": "services/service1/pom.xml",
+          "xpath": "//*[local-name()='parent']/*[local-name()='version']"
+        },
+        {
+          "type": "xml",
+          "path": "services/service2/pom.xml",
+          "xpath": "//*[local-name()='parent']/*[local-name()='version']"
+        }
       ]
     }
   }
