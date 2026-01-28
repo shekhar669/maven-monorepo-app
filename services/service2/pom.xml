@@ -30,13 +30,7 @@
     <dependency>
       <groupId>org.example</groupId>
       <artifactId>security</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.example</groupId>
-      <artifactId>metrics</artifactId>
-      <version>${project.version}</version>
+      <version>0.1.0</version>
     </dependency>
 
   </dependencies>

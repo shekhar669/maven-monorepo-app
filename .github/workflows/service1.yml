@@ -5,9 +5,9 @@ on:
     branches: [ main ]
     paths:
       - pom.xml
+      - services/pom.xml
       - services/service1/**
-      - libs/metrics/**
-      - libs/security/**
+      - security/**
       - .github/workflows/service1.yml
 
 jobs:

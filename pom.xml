@@ -7,7 +7,7 @@
   <artifactId>maven-monorepo-example</artifactId>
   <version>1.0.0</version>
    <modules>
-    <module>libs</module>
+    <module>security</module>
     <module>services</module>
   </modules>
 

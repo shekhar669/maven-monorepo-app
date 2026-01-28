@@ -7,20 +7,14 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>libs</artifactId>
+  <artifactId>security</artifactId>
   <version>0.1.0</version>
-
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
-  <modules>
-    <module>metrics</module>
-    <module>security</module>
-  </modules>
 
 </project>

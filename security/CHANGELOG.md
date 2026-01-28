@@ -4,4 +4,4 @@
 
 ### Features
 
-* Initial release of libs component
+* Initial release of security component

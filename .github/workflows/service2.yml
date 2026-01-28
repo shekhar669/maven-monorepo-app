@@ -4,8 +4,10 @@ on:
   push:
     branches: [ main ]
     paths:
+      - pom.xml
+      - services/pom.xml
       - services/service2/**
-      - libs/metrics/**
+      - security/**
       - .github/workflows/service2.yml
 
 jobs:
