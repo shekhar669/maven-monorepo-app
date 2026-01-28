@@ -2,7 +2,21 @@
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
   "include-component-in-tag": true,
   "packages": {
-    "security": { "release-type": "maven" },
-    "services": { "release-type": "maven" }
+    "security": {
+      "release-type": "maven",
+      "package-name": "security",
+      "extra-files": [
+        "security/pom.xml"
+      ]
+    },
+    "services": {
+      "release-type": "maven",
+      "package-name": "services",
+      "extra-files": [
+        "services/pom.xml",
+        "services/service1/pom.xml",
+        "services/service2/pom.xml"
+      ]
+    }
   }
 }
