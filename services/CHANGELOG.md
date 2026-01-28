@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/shekhar669/maven-monorepo-app/compare/services-v0.3.0...services-v0.4.0) (2026-01-28)
+
+
+### Features
+
+* **service:** add new authentication ([1e2f978](https://github.com/shekhar669/maven-monorepo-app/commit/1e2f9785019849ce6c1e0dac0712f782286847d4))
+
 ## [0.3.0](https://github.com/shekhar669/maven-monorepo-app/compare/services-v0.2.0...services-v0.3.0) (2026-01-28)
 
 
