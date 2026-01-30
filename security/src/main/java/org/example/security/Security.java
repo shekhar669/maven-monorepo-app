@@ -3,7 +3,7 @@ package org.example.security;
 public class Security {
 
     public void someMethod() {
-         System.out.println("security lib release test");
+         System.out.println("security lib release test test");
     }
 
     public String getVersion() {
