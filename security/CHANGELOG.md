@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0](https://github.com/shekhar669/maven-monorepo-app/compare/security-v0.3.0...security-v0.4.0) (2026-01-30)
+
+
+### Features
+
+* updated security capability ([7fca97b](https://github.com/shekhar669/maven-monorepo-app/commit/7fca97b9fa36d4143c774c3c0bbc3d9d81c2d53d))
+* updated security capability ([7fca97b](https://github.com/shekhar669/maven-monorepo-app/commit/7fca97b9fa36d4143c774c3c0bbc3d9d81c2d53d))
+
 ## [0.3.0](https://github.com/shekhar669/maven-monorepo-app/compare/security-v0.2.0...security-v0.3.0) (2026-01-28)
 
 
