@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.5.0](https://github.com/shekhar669/maven-monorepo-app/compare/security-v0.4.0...security-v0.5.0) (2026-01-30)
+
+
+### Features
+
+* Update Security.java 1 ([a9ebe39](https://github.com/shekhar669/maven-monorepo-app/commit/a9ebe3932fa33160c60b21d47721e5f30cf38550))
+* Update Security.java 1 ([a9ebe39](https://github.com/shekhar669/maven-monorepo-app/commit/a9ebe3932fa33160c60b21d47721e5f30cf38550))
+* Update Security.java 1 ([07e531e](https://github.com/shekhar669/maven-monorepo-app/commit/07e531e82d3d77e53b700205de30c105b759801a))
+* Update Security.java 1 ([07e531e](https://github.com/shekhar669/maven-monorepo-app/commit/07e531e82d3d77e53b700205de30c105b759801a))
+* Update Security.java 2 ([6f76ed5](https://github.com/shekhar669/maven-monorepo-app/commit/6f76ed53bb080e6a640834c995448aeddeaaf1d3))
+* Update Security.java 2 ([6f76ed5](https://github.com/shekhar669/maven-monorepo-app/commit/6f76ed53bb080e6a640834c995448aeddeaaf1d3))
+* Update Security.java 2 ([785279c](https://github.com/shekhar669/maven-monorepo-app/commit/785279ce95cd496830601e2c789bb9296c2eac7d))
+* Update Security.java 2 ([785279c](https://github.com/shekhar669/maven-monorepo-app/commit/785279ce95cd496830601e2c789bb9296c2eac7d))
+
+## [0.4.0](https://github.com/shekhar669/maven-monorepo-app/compare/security-v0.3.0...security-v0.4.0) (2026-01-30)
+
+
+### Features
+
+* updated security capability ([7fca97b](https://github.com/shekhar669/maven-monorepo-app/commit/7fca97b9fa36d4143c774c3c0bbc3d9d81c2d53d))
+* updated security capability ([7fca97b](https://github.com/shekhar669/maven-monorepo-app/commit/7fca97b9fa36d4143c774c3c0bbc3d9d81c2d53d))
+
 ## [0.3.0](https://github.com/shekhar669/maven-monorepo-app/compare/security-v0.2.0...security-v0.3.0) (2026-01-28)
 
 
