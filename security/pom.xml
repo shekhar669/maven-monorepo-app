@@ -14,4 +14,17 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <id>artifactory</id>
+      <name>Artifactory Release Repository</name>
+      <url>https://your-artifactory-url/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+      <id>artifactory</id>
+      <name>Artifactory Snapshot Repository</name>
+      <url>https://your-artifactory-url/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>

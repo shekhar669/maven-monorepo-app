@@ -1,6 +1,5 @@
 {
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
-  "separate-pull-requests": false,
   "include-component-in-tag": true,
   "packages": {
     ".": {
@@ -19,21 +18,14 @@
         "security/pom.xml"
       ]
     },
-    "services/service1": {
+    "services": {
       "release-type": "simple",
-      "package-name": "service1",
+      "package-name": "services",
       "extra-files": [
+        "services/version.txt",
+        "services/pom.xml",
         "services/service1/pom.xml",
-        "services/service1/version.txt"
-      ]
-    },
-    "services/service2": {
-      "release-type": "simple",
-      "package-name": "service2",
-      "separate-pull-requests": true,
-      "extra-files": [
-        "services/service2/pom.xml",
-        "services/service2/version.txt"
+        "services/service2/pom.xml"
       ]
     }
   }
