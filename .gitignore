@@ -67,3 +67,4 @@ override.tf.json
 shell.nix
 .envrc
 .direnv
+.DS_Store
