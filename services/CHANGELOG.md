@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.5.0](https://github.com/shekhar669/maven-monorepo-app/compare/services-v0.4.0...services-v0.5.0) (2026-02-04)
+
+
+### Features
+
+* **security:** add test validation ([a82fa66](https://github.com/shekhar669/maven-monorepo-app/commit/a82fa66be9b9d6b1e0b92925041085dc69a739c8))
+* **service1:** add new endpoint ([1c865db](https://github.com/shekhar669/maven-monorepo-app/commit/1c865db0b5800367741d7a5308c43867b0a5f4bb))
+* **service2:** add analytics feature ([ac6968d](https://github.com/shekhar669/maven-monorepo-app/commit/ac6968df4817b0f02a4bb20bec05ca9048d674bb))
+
 ## [0.4.0](https://github.com/shekhar669/maven-monorepo-app/compare/services-v0.3.0...services-v0.4.0) (2026-01-28)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/shekhar669/maven-monorepo-app/compare/security-v0.5.0...security-v0.6.0) (2026-02-04)
+
+
+### Features
+
+* **security:** add test validation ([a82fa66](https://github.com/shekhar669/maven-monorepo-app/commit/a82fa66be9b9d6b1e0b92925041085dc69a739c8))
+
 ## [0.5.0](https://github.com/shekhar669/maven-monorepo-app/compare/security-v0.4.0...security-v0.5.0) (2026-01-30)
 
 
